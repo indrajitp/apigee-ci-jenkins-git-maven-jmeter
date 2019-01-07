@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="5" name="GNF">
+    <Basepaths>/gnf</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1540991582631</CreatedAt>
+    <CreatedBy>srikanthchintala@globalpay.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>GNF</DisplayName>
+    <LastModifiedAt>1542054787780</LastModifiedAt>
+    <LastModifiedBy>srikanthchintala@globalpay.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:1f6a909e25a8ae3f205b3542e78d1a2b415fea2fc119aeea68b8151d4134bbb7938d4c3c477d9c1b2f2dca1027e58c1dc8aa115c23b2bb204408c4b4b91ca9d5</ManifestVersion>
+    <Policies>
+        <Policy>Basic-Authentication-1</Policy>
+        <Policy>Constructing-Request</Policy>
+        <Policy>CreateResponse</Policy>
+        <Policy>EV-Json-Payload</Policy>
+        <Policy>Extract-Json-fields</Policy>
+        <Policy>TargetEndpoint</Policy>
+        <Policy>add-cors</Policy>
+        <Policy>assign-globaltxid</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://Constructing Request.js</Resource>
+        <Resource>jsc://TargetEndpoint.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
