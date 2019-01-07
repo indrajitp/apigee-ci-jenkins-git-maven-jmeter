@@ -37,7 +37,7 @@
 		<module>../gnf-api</module>
 		<module>../indrajit-api</module>
 		<module>../indrajit-api-events</module>
-		<module>../indrajit-api</module>
+		<module>../indrajit-api2</module>
 		<module>../indrajit-api-mock</module>
 		<module>../indrajit_outer-api</module>
 		<module>../indrajit-tracking-api</module>
