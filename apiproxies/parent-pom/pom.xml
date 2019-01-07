@@ -51,9 +51,9 @@
 		<pluginManagement>
 			<plugins>
 				<plugin>
-					<groupId>com.apigee.build-tools.enterprise4g</groupId>
-					<artifactId>4G-gateway-maven-build-pack</artifactId>
-					<version>0.0.15</version>
+					<groupId>io.apigee.build-tools.enterprise4g</groupId>
+					<artifactId>apigee-edge-maven-plugin</artifactId>
+					<version>1.0.0</version>
 				</plugin>
 				<plugin>
                     <groupId>com.lazerycode.jmeter</groupId>
@@ -90,8 +90,8 @@
 			</plugin>
 
  			<plugin>
-				<groupId>com.apigee.build-tools.enterprise4g</groupId>
-				<artifactId>4G-gateway-maven-build-pack</artifactId>
+				<groupId>io.apigee.build-tools.enterprise4g</groupId>
+				<artifactId>apigee-edge-maven-plugin</artifactId>
 				<configuration>
 					<skip>true</skip>
 				</configuration>
