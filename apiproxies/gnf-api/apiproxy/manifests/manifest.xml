@@ -13,7 +13,7 @@
         <VersionInfo resourceName="verify-api-key" version="SHA-512:f50bda3fb8004531dbaf802e042ee6575c40cec7a979962b81ec38c7de9f78de308e704faa3afa45d17fde1126c1f057a062b64f687c073478c70f0241e155e5"/>
     </Policies>
     <ProxyEndpoints>
-        <VersionInfo resourceName="default" version="SHA-512:a9c18ccd8eeb7662820f901f14b3387e9d2d24c8f329d022487f879cf87ba3006c46a96b455b4d5c3cf19f9a0f8c6869dbf42fd37ebc92d553dd017700dd0a4b"/>
+        <VersionInfo resourceName="default" version="SHA-512:1e67c3535582b6f9f8195af9194cbe0466b2d79d64982da81f3d1a8871b2c06430423bf3cd10a577ee4c1b2d5f34f78c27b9fd191817efc4fc49952d1f723882"/>
     </ProxyEndpoints>
     <Resources>
         <VersionInfo resourceName="jsc://Constructing Request.js" version="SHA-512:027269de1a50be01c73cea6f1c6220624c46a25cc33f21479fa222008122da228927fc3bb92b83ddc25c615f873bb52a03b26a453bde0837f23eba1bd7d93ba8"/>
